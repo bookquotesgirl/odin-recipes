@@ -10,76 +10,100 @@
 <body>
     <header>
 <div class="logo">
-    <h2>Odin-Recipes</h2>
+    <h2>OdinRecipes</h2>
 </div>
 <div class="links">
     <nav>
-        <a href="#home"><i class="fas fa-home"></i> Home</a>  
+        <a href="#home"><i class="fas fa-home"></i> Home  </a>  
         <a href="#catagory"><i class="fas fa-book-open"></i> Catagories</a>  
+        <a href="#search"><i class="fas fa-search"></i> Search</a>  
     </nav>
 </div>
     </header>
     <main>
         <section id="home">
-            <h1>Discover culinary Excellence with Odin Recipes</h1>
-            <h2>From comfort food classics to innovative fusion dishes, explore our curated collection of recipes that will transform you kitchen into a culinary paradise </h2>
-            <input type="text" placeholder="Search for recipes, ingredients...">
-             <button class="search"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
-             <div class="exampleimages">
-                <div class="oneimage">
-                    <img src="./images/cheeseburger.jpg">
-                </div>
-                <div class="oneimage">
-                    <img src="./images/cheeseburger.jpg">
-                </div>
-                <div class="oneimage">
-                    <img src="./images/cheeseburger.jpg">
-                </div>
-                <div class="oneimage">
-                    <img src="./images/cheeseburger.jpg">
-                </div>
-        
-        
-             </div>
+            <div class="everything">
+                <h1>Discover <text id="special">Culinary</text> Excellence</h1>
+                <h2>From comfort food classics to innovative fusion dishes, explore our curated collection of recipes that will transform you kitchen into a culinary paradise </h2>
+                    <input type="search" placeholder="Search for recipes, ingredients..." >
+                <button class="search"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+                
+                 
+                 
+            </div>
+            <div class="exampleimages">
+                    <img id="salad" src="./images/dietplan.png">
+               
+                     <img id="burger" src="./images/burger.jpg">
+               
+                    <img id="cake" src="./images/cake.jpg">
+               
+                    <img id="pancake" src="./images/food.png">
+            </div>
         </section>
         <section id="featured">
             <h2>Featured Recipes</h2>
-            <h3>Handpicked favorites that have earned rave reviews from our community of food enthusiasts</h3>
+            <h3>Handpicked favorites that have earned rave reviews from our community of<br>food enthusiasts</h3>
             <div class="recipes">
+            
                 <div class="onerecipe">
-                    <img src="./images/chickenwrap.jpg">
+                    <img src="./images/pasta.jpeg">
                     <h5>Creamy Truffle Pasta</h5>
                     <div class="text">Luxurious pasta dish with trufflle oil and pamesan cheese</div>
                     <div class="meta">
-                      <i class="fas fa-clock "></i> 25 min
-                      <i class="fas fa-poll-people    "></i> 4 servings
+                      <i class="fas fa-clock "> 25 min</i>
+                      <i class="fa fa-users" aria-hidden="true"> 4 servings</i>
+                    </div>
+                    <div class="filters">
+                        <div class="filter">
+                            Pasta
+                        </div>
+                        <div class="filter">
+                            Italian
+                        </div>
+                        <div class="filter">
+                            Luxury
+                        </div>
                     </div>
                 </div>
                 <div class="onerecipe">
-                    <img src="./images/chickenwrap.jpg">
-                    <h5>Creamy Truffle Pasta</h5>
-                    <div class="text">Luxurious pasta dish with trufflle oil and pamesan cheese</div>
+                    <img src="./images/chocolate.avif">
+                    <h5>Chocolate Lava Cake</h5>
+                    <div class="text">Decadent individual chocolate cakes with molten centers</div>
                     <div class="meta">
-                      <i class="fas fa-clock "></i> 25 min
-                      <i class="fas fa-poll-people    "></i> 4 servings
+                      <i class="fas fa-clock "> 15 min</i>
+                      <i class="fa fa-users" aria-hidden="true"> 4 servings</i>
+                    </div>
+                    <div class="filters">
+                        <div class="filter">
+                            Chocolate
+                        </div>
+                        <div class="filter">
+                            Dessert
+                        </div>
+                        <div class="filter">
+                            Individual
+                        </div>
                     </div>
                 </div>
                 <div class="onerecipe">
-                    <img src="./images/chickenwrap.jpg">
-                    <h5>Creamy Truffle Pasta</h5>
-                    <div class="text">Luxurious pasta dish with trufflle oil and pamesan cheese</div>
+                    <img src="./images/fries.png">
+                    <h5>Classic Caprese Salad</h5>
+                    <div class="text">Fresh mozzarella, tomatoes, and basil with balsamic glaze</div>
                     <div class="meta">
-                      <i class="fas fa-clock "></i> 25 min
-                      <i class="fas fa-poll-people    "></i> 4 servings
+                      <i class="fas fa-clock"> 4 servings</i>
+                      <i class="fa fa-users" aria-hidden="true"> 4 servings</i>
                     </div>
-                </div>
-                <div class="onerecipe">
-                    <img src="./images/chickenwrap.jpg">
-                    <h5>Creamy Truffle Pasta</h5>
-                    <div class="text">Luxurious pasta dish with trufflle oil and pamesan cheese</div>
-                    <div class="meta">
-                      <i class="fas fa-clock "></i> 25 min
-                     <i class="fas fa-people-carry "></i> 4 servings
+                    <div class="filters">
+                        <div class="filter">
+                            Chocolate
+                        </div>
+                        <div class="filter">
+                            Dessert
+                        </div>
+                        <div class="filter">
+                            Individual
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,30 +113,43 @@
         <h2>Recipe Catagories</h2>
         <h3>Appetizers to deserts find it all here</h3> 
         <div class="group">
-            <div class="onegroup">
-                <h4>Appetizers</h4>
-                <h5>Start with delicious small bites</h5>
+            <div class="burg">
+                <div class="onegroup">
+                    <h4>Appetizers</h4>
+                    <h5>Start with delicious small bites</h5>
+                </div>
             </div>
+           <div class="diet">
             <div class="onegroup">
                 <h4>Main Dish</h4>
                 <h5>Start with delicious small bites</h5>
             </div>
-            <div class="onegroup">
-                <h4>Desert</h4>
-                <h5>Start with delicious small bites</h5>
+           </div>
+            <div class="des">
+                <div class="onegroup">
+                    <h4>Desert</h4>
+                    <h5>Start with delicious small bites</h5>
+                </div>
             </div>
-            <div class="onegroup">
-                <h4>Beverages</h4>
-                <h5>Start with delicious small bites</h5>
+            <div class="drink">
+                <div class="onegroup">
+                    <h4>Beverages</h4>
+                    <h5>Start with delicious small bites</h5>
+                </div>
             </div>
-            <div class="onegroup">
-                <h4>Breakfasts</h4>
-                <h5>Start with delicious small bites</h5>
+            <div class="break">
+                <div class="onegroup">
+                    <h4>Breakfasts</h4>
+                    <h5>Start with delicious small bites</h5>
+                </div>
             </div>
-            <div class="onegroup">
-                <h4>Salads</h4>
-                <h5>Start with delicious small bites</h5>
+            <div class="app">
+                <div class="onegroup">
+                    <h4>Salads</h4>
+                    <h5>Start with delicious small bites</h5>
+                </div>
             </div>
+           
         </div>
        </section>
     </main>
