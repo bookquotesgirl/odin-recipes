@@ -23,6 +23,10 @@ nav a{
     font-size: 18px;
     color: black;
 }
+nav a:hover{
+    background-color: rgba(244, 124, 97, 0.225);
+    color: orangered;
+}
 
 i{
     color: orangered;
@@ -365,4 +369,25 @@ z-index: 1;
   .group *:hover{
     transform: translateY(-10px);
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  }
+  /* Below these are catagories page styles */
+  #hero{
+    padding: 100px;
+    background: #f5aea6;
+background: linear-gradient(180deg, rgba(245, 174, 166, 0.39) 52%, rgba(245, 242, 242, 1) 100%);
+  }
+  #hero h1{
+    font-size: 35px;
+    text-align: center;
+  }
+  #hero h2{
+    padding: 20px;
+    color: rgb(108, 108, 108);
+    text-align: center;
+    font-weight: normal;
+  }
+  #catagories{
+    background-color: rgb(242, 240, 240);
+    padding: 100px;
+    padding-top: 60px;
   }

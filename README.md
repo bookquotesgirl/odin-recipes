@@ -15,3 +15,5 @@ https://image.bangkokbiznews.com/uploads/images/md/2022/12/qa0NxupnFPdiV0zHiKQ8.
 https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/08/no-code-hobby-baking.jpg
 https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/food.png?w=1200
 https://www.themixer.com/en-us/wp-content/uploads/sites/2/2022/09/199.US_Sex-on-the-Beach_Canva_MAD76g0-mRg-glasses-of-sex-on-the-beach-cocktail-on-a-table-1024x512.jpg
+<a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/share" title="share icons">Share icons created by Freepik - Flaticon</a>
