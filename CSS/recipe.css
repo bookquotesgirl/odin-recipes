@@ -1,6 +1,11 @@
 *{
     margin: 0;
     border-color: transparent;
+
+}
+body{
+  background-color: rgb(246, 237, 237);
+
 }
 header{
     display: flex;
@@ -38,7 +43,13 @@ nav a:hover{
         color: white; 
         height: 300px;
 }
-
+.back a{
+  text-decoration: none;
+  color: white;
+}
+.back a:hover{
+  color: rgb(143, 140, 140);
+}
 .content {
     position: relative;
     z-index: 2;
@@ -63,4 +74,129 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+  }
+  .directions{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .name{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(172, 170, 170);
+    border-radius: 15px;
+  }
+  .name h2{
+    padding-bottom: 10px;
+    font-size: 35px;
+  }
+  .name p{
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(78, 76, 76);
+  }
+    .filters{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  .filter{
+      background-color: #f5aea68c;
+      border-radius: 12px;
+      height: 20px;
+      width: 80px;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 15px;
+      color: #F25C4D;
+  }
+  .meta{
+    display: flex;
+    gap: 40px;
+    color: rgb(78, 76, 76);
+    font-size: 13px;
+  }
+  .ingredient,.steps{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(172, 170, 170);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ingredient h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  ul{
+    list-style: none;
+  }
+  .ingredient li{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .ingredient li::before{
+    content: "\2022";
+    color: #F25C4D;
+    margin-left: -1em;
+    padding-right: 10px;
+  }
+ 
+  ol{
+    list-style: none;
+    counter-reset: li;
+  }
+  .steps li::before{
+    content: counter(li);
+    color: white;
+    background-color: #F25C4D;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin-left: -1em;
+    margin-right: 1em;
+    font-size: 20px;
+    text-align: center;
+  }
+  .steps li{
+counter-increment: li;
+font-size: 20px;
+padding: 10px;
+  }
+  .steps h4{
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .nutrition{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(172, 170, 170);
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  .nutrition h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  
+  .tip{
+    padding: 20px;
+    background-color:#f25b4d54;
+    margin-top: 20px;
+
+  }
+  .tip h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .tip ul{
+    font-size: 18px;
+    list-style: circle;
   }
