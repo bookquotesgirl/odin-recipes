@@ -13,6 +13,7 @@ header{
     background-color: white;
     position: sticky;
     top: 0;
+    z-index: 2;
     box-shadow: 10px 5px 5px rgb(172, 170, 170);
 
 }
@@ -28,8 +29,9 @@ nav a:hover{
     color: orangered;
 }
 
-i{
-    color: orangered;
+nav i{
+    color: transparent;
+    -webkit-text-stroke: 1px orangered;
 }
 #home{
     padding: 100px;
@@ -45,11 +47,11 @@ i{
 }
 .everything input{
     margin-top: 30px;
-    height: 50px;
-    width: 400px;
+    height: 60px;
+    width: 100%;
     border-radius: 30px;
     box-shadow: 3px 3px 3px rgb(172, 170, 170);
-
+    position: relative;
 }
 .search{
     height: 40px;
@@ -58,6 +60,10 @@ i{
     background: #F25C4D;
 background: linear-gradient(135deg, rgba(242, 92, 77, 1) 0%, rgba(244, 123, 97, 1) 100%);
     color: white;
+    position: absolute;
+    top: 73%;
+    transform: translateY(-50%);
+    left: 565px;
 }
 .search:hover{
 background: #F25C4D;
@@ -107,12 +113,12 @@ img{
     width: 300px;
 }
 #featured{
-    background-color: rgb(242, 240, 240);
+    background-color: rgba(254, 244, 244, 0.809);
     padding: 100px;
     padding-top: 60px;
 }
 #featured h2{
-    font-size: 30px;
+    font-size: 35px;
 }
 #featured h2,h3{
     text-align: center;
@@ -150,6 +156,9 @@ img{
     padding: 10px;
 }
 .onerecipe:hover{
+    h5{
+        color: orangered;
+      }
     transform: translateY(-10px);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
 }
@@ -159,7 +168,8 @@ img{
     padding: 10px;
 }
 .meta i{
-    color: rgb(108, 108, 108);
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(108, 108, 108);
     font-size: 12px;
 }
 .filters{
